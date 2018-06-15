@@ -1,0 +1,34 @@
+#include <stdio.h>
+
+int main () {
+
+	int a = 5;
+	int b[a];
+	fibonacci(b, a);
+	print([b]);
+}
+
+int fibonacci (int b[], int size) {
+	
+	int x = 0; // posicion n - 2
+	int y = 1; // posicion n - 1
+
+	b[0] = x;
+	b[1] = y;
+	int i;
+
+	for (i = 2; i < size; i = i + 1) {
+		int t = x + y;
+		b[i] = t;
+		x = y;	
+		y = t;
+	}
+
+	return b[];
+} 
+
+int print (int b[]){
+
+	printf("%i\n" , b[]);
+
+}

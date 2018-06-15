@@ -1,0 +1,19 @@
+mkdir polo [crear carpeta con el nombre polo]
+
+gedit main.c [crear documento tipo .C con el nombre main]
+
+cd Desktop/ [ir al escritorio]
+
+
+gcc -o hola main.c [compilar main; hola es el nombre ya compilado] 
+
+./hola [ejecutar hola]
+
+
+cd ../ [volver a la carpeta anterior]
+
+
+
+
+gcc -o hola contador.c
+gcc -o hola mult.c
